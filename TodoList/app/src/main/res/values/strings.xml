@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="action_settings">Settings</string>
+    <string name="frag_todo_titleHint">Der Titel deiner Notiz</string>
+    <string name="frag_todo_contentHint">Erstelle eine wichtige Notiz</string>
+    <string name="todo_fristStart_title">Welcome</string>
+    <string name="todo_firstStart_content">Hast du gewusst, dass du über das viereckige Kästchen, deine wichtigen Einträge endlich abhaken kannst?
+                Oder hast du gewusst, dass du den Eintrag mit einem langen Fingerdruck auf den Titel LÖSCHEN kannst?
+                Oder hast du gewusst, dass du den Eintrag mit einem Fingerdruck AUS- UND EINKLAPPEN kannst?
+                Probiers mal aus! Lösch diese Nachricht und erstelle ein neuen Einträg über den Knopf "Add" der rechtsoben auf dich wartet!</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="action_createTodo">Add</string>
+</resources>

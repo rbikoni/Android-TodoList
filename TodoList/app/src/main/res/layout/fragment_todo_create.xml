@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_todoTitle"
+        android:inputType="text|textMultiLine"
+        android:editable="true"
+        android:elegantTextHeight="true"
+        android:clickable="false"
+        android:enabled="true"
+        android:hint="@string/frag_todo_titleHint" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_todoContent"
+        android:inputType="text|textMultiLine"
+        android:editable="true"
+        android:elegantTextHeight="true"
+        android:clickable="false"
+        android:enabled="true"
+        android:hint="@string/frag_todo_contentHint" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_category"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>
